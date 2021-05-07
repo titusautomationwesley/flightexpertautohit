@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteName]">
+  <test thread-count="5" name="ZipAndSendMail(failed)">
+    <classes>
+      <class name="testcases.ZipAndSendMail">
+        <methods>
+          <include name="mail"/>
+        </methods>
+      </class> <!-- testcases.ZipAndSendMail -->
+    </classes>
+  </test> <!-- ZipAndSendMail(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

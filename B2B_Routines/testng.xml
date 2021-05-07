@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteName">
+	<test name="FlightPageTest" allow-return-values="true">
+		<classes>
+			<class name="testcases.FlightPageTest" />
+		</classes>
+	</test> 
+	
+	<test name="ZipAndSendMail" allow-return-values="true">
+		<classes>
+			<class name="testcases.ZipAndSendMail" />
+		</classes>
+	</test> 
+		
+</suite>
+
